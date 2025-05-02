@@ -28,7 +28,7 @@ RegisterNumber: 212222110007
 ```
 
 ## Sourcecode.java:
-
+```
 import java.util.*;
 public class Demo{
     public static void main(String[] args){
@@ -42,7 +42,7 @@ public class Demo{
           System.out.print("false");
     }
 }
-
+```
 ## OUTPUT:
 ```
 
