@@ -22,22 +22,39 @@ b)	If the condition is false, print "false" using the 'print' method of 'System.
 
 ## PROGRAM:
  ```
-/*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: DEVADARSHAN A S
+RegisterNumber: 212222110007 
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+import java.util.*;
+public class Demo{
+    public static void main(String[] args){
+        int a,b;
+        Scanner input=new Scanner(System.in);
+        a=input.nextInt();
+        b=input.nextInt();
+        if(a<50 || a<b)
+          System.out.print("true");
+        else
+          System.out.print("false");
+    }
+}
 
 ## OUTPUT:
+```
+
+Input	  Expected   	Got	
+
+23       true        true
+50       true        true
+
+50       true        true
+65       true        true
+
+```
 
 
 
